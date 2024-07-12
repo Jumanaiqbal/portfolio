@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#courses">Courses</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<h1>Welcome To My Portfolio!</h1>
+			<p>
+				This is a place where I showcase my skills, projects and provide a means
+				for visitors to get in touch with me through a contact form.
+			</p>
+		</header>
+
+		<section id="about">
+			<h2>About Me</h2>
+			<div class="about-me-container">
+				<img
+					src="c:\Users\Thasni\Downloads\WhatsApp Image 2024-02-17 at 1.29.00 AM.jpeg"
+					alt="Profile picture"
+				/>
+				<div class="about-me-content">
+					<p>I am an engineering graduate who loves making websites.</p>
+					<a href="mailto:jumanamohamediqbal@gmail.com"
+						>jumanamohamediqbal@gmail.com</a
+					>
+					<div class="social-icons">
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required />
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required />
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<input type="submit" value="Send" />
+			</form>
+		</section>
+		<!-- ... -->
+
+		<!-- ... -->
+
+		<section id="skills">
+			<h2>My Skills</h2>
+			<ul>
+				<li>HTML/CSS</li>
+				<li>react.js</li>
+				<li>JavaScript</li>
+			</ul>
+		</section>
+
+		<section id="courses">
+			<h2>Courses I've Taken</h2>
+			<ul>
+				<li>Programming with JavaScript</li>
+				<li>Introduction to front-end development</li>
+			</ul>
+		</section>
+	</body>
+</html>
